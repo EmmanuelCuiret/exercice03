@@ -48,6 +48,7 @@ nav ul {
 
   li:hover {
     background-color: #007dfc;
+    cursor: pointer;
   }
 }
 
@@ -122,6 +123,11 @@ nav ul {
   padding: 10px 27px 10px 27px;
   font-size: 16px;
   font-weight: 400;
+}
+
+.knowMore:hover {
+  filter: brightness(110%);
+  cursor: pointer;
 }
 
 .right-grid {
